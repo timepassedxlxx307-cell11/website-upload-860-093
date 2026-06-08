@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>站内搜索 - 日韩视频精选</title>
+  <meta name="description" content="日韩视频精选站内搜索，支持按影片标题、年份、地区、类型和标签查找免费播放内容。">
+  <meta name="keywords" content="免费日韩视频,日韩视频在线平台,免费韩剧,免费日剧,海量视频资源,免费在线观看,最新日韩剧集,免费电影,韩流综艺,日韩音乐MV,搜索,影片搜索">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="./index.html" aria-label="日韩视频精选">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">
+        <strong>日韩视频精选</strong>
+        <small>海量免费视频资源随时观看</small>
+      </span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="./index.html">首页</a>
+      <a href="./all-movies.html">片库</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <div class="nav-dropdown">
+        <button type="button">频道</button>
+        <div class="dropdown-panel">
+          <a href="./category/japan-korea-hot.html">日韩热播</a><a href="./category/korean-drama.html">韩剧精选</a><a href="./category/japanese-cinema.html">日影剧场</a><a href="./category/asian-cinema.html">亚洲影像</a><a href="./category/action-crime.html">动作犯罪</a><a href="./category/romance-drama.html">爱情剧情</a><a href="./category/suspense-horror.html">悬疑惊悚</a><a href="./category/fantasy-sci-fi.html">奇幻科幻</a><a href="./category/comedy-variety.html">喜剧综艺</a><a href="./category/classic-new.html">新片经典</a>
+        </div>
+      </div>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开导航">☰</button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="./index.html">首页</a>
+    <a href="./all-movies.html">片库</a>
+    <a href="./categories.html">分类</a>
+    <a href="./ranking.html">排行榜</a>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="page-main content-block">
+  <div class="section-head">
+    <div>
+      <span class="section-kicker">Search</span>
+      <h1>站内搜索</h1>
+      <p class="page-intro">输入片名、地区、年份、类型或标签，快速查找想看的影视内容。</p>
+    </div>
+  </div>
+  <div class="search-box">
+    <input type="search" placeholder="搜索影片" data-search-page-input>
+    <a class="btn" href="./all-movies.html">返回片库</a>
+  </div>
+  <div class="search-results" data-search-results></div>
+</main>
+<script src="./assets/js/search-index.js"></script>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">日韩视频精选</div>
+      <p>最新免费日韩视频在线平台，海量免费视频资源随时观看，精彩不断。提供最新日韩剧集、电影、综艺节目免费在线观看，高清画质，中文字幕，无广告干扰。</p>
+    </div>
+    <div>
+      <h2>热门频道</h2>
+      <div class="footer-links"><a href="./category/japan-korea-hot.html">日韩热播</a><a href="./category/korean-drama.html">韩剧精选</a><a href="./category/japanese-cinema.html">日影剧场</a><a href="./category/asian-cinema.html">亚洲影像</a><a href="./category/action-crime.html">动作犯罪</a><a href="./category/romance-drama.html">爱情剧情</a></div>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./all-movies.html">全部片库</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">观看排行</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 日韩视频精选. All Rights Reserved.</div>
+</footer>
+<script src="./assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
